@@ -1,3 +1,13 @@
-#h2{
-    color: rgb(255, 255, 255);  
-} 
+body{
+background-image: url("img/imagemtreino3.jpg.jpg");
+background-size: cover;
+background-position: center;
+
+
+    font-family: Verdana;
+
+    width: 100%;
+    text-align: center; 
+
+  color: white;
+}
