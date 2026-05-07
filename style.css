@@ -11,6 +11,23 @@ color: white;
 text-align: left;      
 }
 
+.titulo{
+    text-align: center;
+    color: darkorange;
+}
+
+hr{
+background: rgb(110, 110, 110);
+margin: 20px auto;
+}
+
+hr, h2{
+    margin: 10px auto;
+
+
+
+}
+
 .container{
 
     max-width: 1200px;
