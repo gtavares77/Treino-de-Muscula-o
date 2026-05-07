@@ -3,11 +3,20 @@ background-image: url("img/imagemtreino3.jpg.jpg");
 background-size: cover;
 background-position: center;
 
+ font-family: Verdana;
 
-    font-family: Verdana;
+width: 100%;
+text-align: center; 
 
-    width: 100%;
-    text-align: center; 
-
-  color: white;
+color: white;
 }
+
+.fundo{
+position: fixed;  
+top: 0;
+left: -10;  
+width: 100%;
+filter: blur(10px);  
+ opacity: 0.05;
+}
+
