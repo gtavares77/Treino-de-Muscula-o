@@ -1,45 +1,38 @@
 body{
 background-color: black;  
-background-size: cover;
-background-position: center;
 
- font-family: Verdana;
-
-width: 100%;
-min-height: 100vh;
-
-
-margin: 0;
+margin: 10px;
 padding: 0;
 
-text-align: center; 
+font-family: Verdana;
+
 color: white;
+
+text-align: left;      
 }
 
+.container{
 
-.fundo{
-position: fixed;  
-top: 0;
-left: 0;  
-width: 100%;
-filter: blur(10px);  
- opacity: 0.05;
-}
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px;
+
 
 /* TITULO */
-h1{
-    font-size: 4rem;
+@titulo{
+    font-size: 1rem;
     margin-bottom: 20px;
 }
 
+
 /* SUBTITULO */
-h2{
-    font-size: 2rem;
+@subtitulo{
+    font-size: 22rem;
     margin-bottom: 15px;
 }
 
 /* PARAGRAFO */
-p{
+.paragrafo{
     font-size: 1.2rem;
 
     max-width: 700px;
@@ -51,23 +44,23 @@ p{
 
 
 /* CELULAR */
-@media (max-width: 768px){
+@celular (max-width: 768px){
 
     body{
         padding: 20px;
     }
 
-    h1{
-        font-size: 4rem;
+    .titulo{
+        font-size: 2rem;
         margin-bottom: 20px;
     }
 
-    h2{
-        font-size: 2rem;
+    .subtitulo{
+        font-size: 1.5rem;
         margin-bottom: 15px;
     }
 
-    p{
+    .paragrafo{
         font-size: 1.2rem;
         max-width: 700px;
         margin: auto;
@@ -75,4 +68,4 @@ p{
     }
 
 }
-
+}
