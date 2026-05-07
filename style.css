@@ -6,10 +6,16 @@ background-position: center;
  font-family: Verdana;
 
 width: 100%;
-text-align: center; 
+min-height: 100vh;
 
+
+margin: 0;
+padding: 0;
+
+text-align: center; 
 color: white;
 }
+
 
 .fundo{
 position: fixed;  
@@ -18,5 +24,25 @@ left: -10;
 width: 100%;
 filter: blur(10px);  
  opacity: 0.05;
+}
+
+@media (max-width: 768px){
+
+    body{
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
 }
 
