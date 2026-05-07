@@ -26,6 +26,31 @@ filter: blur(10px);
  opacity: 0.05;
 }
 
+/* TITULO */
+h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+/* SUBTITULO */
+h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* PARAGRAFO */
+p{
+    font-size: 1.2rem;
+
+    max-width: 700px;
+
+    margin: auto;
+
+    margin-bottom: 20px;
+}
+
+
+/* CELULAR */
 @media (max-width: 768px){
 
     body{
@@ -33,15 +58,20 @@ filter: blur(10px);
     }
 
     h1{
-        font-size: 2rem;
+        font-size: 4rem;
+        margin-bottom: 20px;
     }
 
     h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-bottom: 15px;
     }
 
     p{
-        font-size: 1rem;
+        font-size: 1.2rem;
+        max-width: 700px;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
 }
