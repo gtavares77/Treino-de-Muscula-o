@@ -20,7 +20,7 @@ color: white;
 .fundo{
 position: fixed;  
 top: 0;
-left: -10;  
+left: 0;  
 width: 100%;
 filter: blur(10px);  
  opacity: 0.05;
