@@ -41,10 +41,10 @@
 }
 .logo-site {
     position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 80px;
-    height: 80px;
+    top: 40px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
     z-index: 20;
 }
